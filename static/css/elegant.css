@@ -42,7 +42,8 @@ footer div#fpowered {
     Helvetica, Arial, sans-serif;
 }
 a {
-  color: #3875d7;
+  color: #8b0000;
+  text-decoration: none;
 }
 hr {
   border-width: 3px;
@@ -50,6 +51,7 @@ hr {
 /* Top navigation menu */
 .top-menu li a {
   font-weight: bold;
+  text-decoration: none;
 }
 /* comment */
 #comment-message,
@@ -97,6 +99,7 @@ ul.list-projects,
 .article-content,
 div.recent-posts p {
   text-align: justify;
+  line-height: 1.1em;
 }
 .article-content {
   max-width: 50em;
@@ -106,7 +109,7 @@ div.recent-posts p {
 }
 .article-content ul:not(.related-posts-list):not(.articles-timeline) {
   font-size: inherit;
-  list-style-type: disc;
+  list-style-type: circle;
 }
 .article-content ul.related-posts-list {
   list-style-type: square;
@@ -116,7 +119,7 @@ div.recent-posts p {
   list-style-type: decimal;
 }
 .article-content li {
-  line-height: 1.7em;
+  line-height: 1.4em;
   list-style-position: outside;
   margin: 1px 0 1px 20px;
 }
@@ -450,6 +453,7 @@ table tbody > tr:nth-child(odd) > td {
 .navbar .nav > li > a {
   float: none;
   padding: 11px 15px 13px;
+  text-decoration: none;
 }
 .site-name {
   color: var(--mutedTextColor);

@@ -1,0 +1,10 @@
+.article-content li {
+  line-height: 1.0em;
+  list-style-position: outside;
+  margin: 1px 0 1px 20px;
+}
+
+.article-content p {
+  font-size: inherit;
+  line-height: 1.1em;
+}

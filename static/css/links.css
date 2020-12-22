@@ -5,9 +5,10 @@ article
   div.article-content
   ul:not(.articles-timeline):not(.related-posts-list)
   a {
-  color: black;
+  color: #8b0000;
   display: inline-block;
   position: relative;
+  text-decoration: none;
   &:after {
     position: absolute;
     top: 100%;
@@ -34,7 +35,7 @@ article
   }
 }
 div.recent-posts-posted a {
-  color: inherit;
+  color: #8b0000;
   padding-left: 0.3em;
   &:hover {
     border-bottom: 1px dashed;
@@ -49,6 +50,7 @@ a.ampl {
   color: royalblue;
   display: inline-block;
   position: relative;
+  text-decoration: none;
   &:focus {
     text-decoration: none;
   }
