@@ -99,13 +99,13 @@ ul.list-projects,
 .article-content,
 div.recent-posts p {
   text-align: justify;
-  line-height: 1.1em;
+  line-height: 1.3em;
 }
 .article-content {
   max-width: 45em;
 }
 .article-content p {
-  margin: 0 0 2px 0;
+  margin: 0 0 10px 0;
 }
 .article-content ul:not(.related-posts-list):not(.articles-timeline) {
   font-size: inherit;
