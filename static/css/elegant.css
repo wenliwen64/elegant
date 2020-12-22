@@ -102,10 +102,10 @@ div.recent-posts p {
   line-height: 1.1em;
 }
 .article-content {
-  max-width: 50em;
+  max-width: 45em;
 }
 .article-content p {
-  margin: 0 0 20px 0;
+  margin: 0 0 2px 0;
 }
 .article-content ul:not(.related-posts-list):not(.articles-timeline) {
   font-size: inherit;
@@ -121,7 +121,7 @@ div.recent-posts p {
 .article-content li {
   line-height: 1.4em;
   list-style-position: outside;
-  margin: 1px 0 1px 20px;
+  margin: 0px 0 0px 1px;
 }
 .article-content dl {
   font-size: inherit;
